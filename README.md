@@ -77,6 +77,12 @@ Here we try to answer the following questions to be tailored towards video game 
 - IGDB coverage skews toward certain platforms/regions; “unrated” games excluded from rating‑based insights.
 
 ## Demo Preview
+The EDA was performed in a Jupyter Notebook, while the Recommender System was initialized using Streamlit in a Python file. 
+
+The Recommender app is in itself a separate project, but utilizes inspiration from the insights found in the EDA. This app was designed to be consumer-focused, to guide video game players to their next favorite video game. It contains a choice to input a game you've previously played in order to receive recommendations based on similar games. 
+
+There are multiple filters to guide the app's recommendations, such as preferred platform(s), genre(s), and theme(s). It is also possible to see "hidden gems" below the standard recommendations, based off of higher ratings and lower engagement based on the dataset. 
+
 ![GIF](images-for-readme/demo.gif)
 
 ## Installation
