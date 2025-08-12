@@ -30,21 +30,30 @@ Here we try to answer the following questions to be tailored towards video game 
   - Niche + High Rated (hidden gems)
   - Popular + Mid Rated
   - Niche + Low Rated
+ 
+![image](images-for-readme/genre_landscape.png)
 
 ### Theme & Genre Combinations 
 - Themes of Fantasy, Open World, and Drama raise ratings across genres to a steady 70-80 score, suggesting that they are broad crowd-pleasers and most likely to be received well by audiences despite the genre.
 - Erotic (and sometimes Educational) themes depress ratings across most genres, *except* for Tactical, implying that these themes are only compatible with games emphasizing decision-making and strategy.
 - Adventure is stable across themes, while Pinball, Shooter, Racing show strong theme sensitivity. For example, Pinball/Mystery and Pinball/Thriller shoot the average rating up to scores of 90+, while Pinball/Educational combinations are generally not enjoyed.
 
+![image](images-for-readme/genretheme_heatmap.png)
+
+
 ### Platforms: Availability vs Engagement
 - PC (Windows) leads by title count and engagement, representing 23.23% of all title releases. Their presence is most seen in MOBAs (Multiplayer Online Battle Arena) and RTS (Real-Time Strategy) games, both containing 35% % of their respective genre rating counts.
   - Interestingly, Mac shows an almost equal share of rating counts as PC in the MOBA and RTS genres and is most engaged here (almost 30%), suggesting that Mac users are just as interested in the genres as PC users; higher compatibility for both consoles would thus be advised.
-- Nintendo Switch shows diverse engagement overall but comparatively lower in Racing, Shooter, and RTS (<5%), suggesting that Switch has a less marketable niche for these genres. 
+- Nintendo Switch shows diverse engagement overall but comparatively lower in Racing, Shooter, and RTS (<5%), suggesting that Switch has a less marketable niche for these genres.
+
+![image](images-for-readme/platformshare.png)
 
 ### Game Modes and Ratings
 - Games that feature exclusively Multiplayer games boast the highest average ratings of ~80% compared to Single-only (~77%) and games that contain both Single and Multiplayer options (79%).
   - We see high significance in these values, with p < 0.0001, indicating consistency in these average ratings among the categories.
 - This does make theoretical sense, as people tend to enjoy flexibility in choosing their mode of playing, and having the option to play alone versus with other people provides different perspectives of playing, which can lead to more overall enjoyment. Additionally, games that contain both modes would be more likely to have a greater amount of money, time, and resources to be invested in their creation, as opposed to single-only games which may fluctuate greatly in this aspect. Lastly, those who enjoy multiplayer-only games are more likely to enjoy games anyway when they're playing alongside their friends due to mutually shared company and entertainment.
+
+![image](images-for-readme/modetype.png)
 
 ## Recommendations
 
@@ -68,6 +77,7 @@ Here we try to answer the following questions to be tailored towards video game 
 - IGDB coverage skews toward certain platforms/regions; “unrated” games excluded from rating‑based insights.
 
 ## Demo Preview
+![GIF](images-for-readme/demo.gif)
 
 ## Installation
 To use this project, first clone the repository on your device using the command below: 
