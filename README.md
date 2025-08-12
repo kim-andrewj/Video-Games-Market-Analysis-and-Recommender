@@ -34,3 +34,5 @@ Here we try to answer the following questions to be tailored towards video game 
 ## Demo Preview
 
 ## Installation
+
+![Footer](images-for-readme/gaming_footer.jpg)
