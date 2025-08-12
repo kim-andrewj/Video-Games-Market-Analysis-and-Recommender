@@ -42,14 +42,39 @@ Here we try to answer the following questions to be tailored towards video game 
 - Nintendo Switch shows diverse engagement overall but comparatively lower in Racing, Shooter, and RTS (<5%), suggesting that Switch has a less marketable niche for these genres. 
 
 ### Game Modes and Ratings
-- Both (Single + Multi) games rate highest on average; Multiplayer‑only roughly ties/slightly trails; Single‑only is more variable with more low tails.
+- Games that feature exclusively Multiplayer games boast the highest average ratings of ~80% compared to Single-only (~77%) and games that contain both Single and Multiplayer options (79%).
+  - We see high significance in these values, with p < 0.0001, indicating consistency in these average ratings among the categories.
+- This does make theoretical sense, as people tend to enjoy flexibility in choosing their mode of playing, and having the option to play alone versus with other people provides different perspectives of playing, which can lead to more overall enjoyment. Additionally, games that contain both modes would be more likely to have a greater amount of money, time, and resources to be invested in their creation, as opposed to single-only games which may fluctuate greatly in this aspect. Lastly, those who enjoy multiplayer-only games are more likely to enjoy games anyway when they're playing alongside their friends due to mutually shared company and entertainment.
 
 ## Recommendations
 
+### Genre/Theme Focus
+- If developing Racing/Shooter games, consider straying away from Nintendo Switch for shipping, as less engagement is seen here overall. Playstation, Xbox, and PC all see the highest engagement for these genres.
+- Use Fantasy/Open World/Drama as anchor themes in trailers/storefronts and marketing campaigns for relevant titles, as gaming playerbases are becoming more drawn to exploration, larger amounts of content, and original, enticing storytelling in recent years. 
+
+### Platform Targeting
+- Promote RTS/MOBA more heavily on PC & Mac/Linux channels with a greater emphasis on equal compatibility. It is well-known that PC contains more compatible functions for high-end gaming, but other computer types additionally contain large playerbases. 
+- Craft Switch‑specific bundles around Adventure/RPG.
+
+### Player Mode Availability 
+- Double‑down on “Both” modes for broad appeal and higher ratings if resources allow; flexibility adds value.
+
+
 ## Assumptions 
+- Ratings represent satisfaction, Rating Count approximates engagement/awareness.
+- The cleaned extraction dataset from IGDB makes a reasonable representation of the gaming industry. 
+- A game’s feature text (genres, themes, platforms, game modes) is a reasonable proxy for content similarity (content‑based filtering).
+- Minimum review thresholds (e.g., ≥ 5 ratings for Hidden Gems) reduce noisy picks.
+- IGDB coverage skews toward certain platforms/regions; “unrated” games excluded from rating‑based insights.
 
 ## Demo Preview
 
 ## Installation
+To use this project, first clone the repository on your device using the command below: 
+
+```git init```
+
+```git clone https://github.com/kim-andrewj/video-games-market-analysis-and-recommender.git```
+
 
 ![Footer](images-for-readme/gaming_footer.jpg)
