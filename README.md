@@ -49,9 +49,9 @@ Here we try to answer the following questions to be tailored towards video game 
 ![image](images-for-readme/platformshare.png)
 
 ### Game Modes and Ratings
-- Games that feature exclusively Multiplayer games boast the highest average ratings of ~80% compared to Single-only (~77%) and games that contain both Single and Multiplayer options (79%).
+- Games that feature both Single and Multiplayer options boast the highest average ratings (>70%) compared to games with exclusively Multiplayer (~70%) and Single-only (~70%).
   - We see high significance in these values, with p < 0.0001, indicating consistency in these average ratings among the categories.
-- This does make theoretical sense, as people tend to enjoy flexibility in choosing their mode of playing, and having the option to play alone versus with other people provides different perspectives of playing, which can lead to more overall enjoyment. Additionally, games that contain both modes would be more likely to have a greater amount of money, time, and resources to be invested in their creation, as opposed to single-only games which may fluctuate greatly in this aspect. Lastly, those who enjoy multiplayer-only games are more likely to enjoy games anyway when they're playing alongside their friends due to mutually shared company and entertainment.
+- This does make theoretical sense, as people tend to enjoy flexibility in choosing their mode of playing, and having the option to play alone versus with other people provides different perspectives of playing, which can lead to more overall enjoyment. Additionally, games that contain both modes would be more likely to have a greater amount of money, time, and resources to be invested in their creation, as opposed to single-only games which may fluctuate greatly in this aspect. 
 
 ![image](images-for-readme/modetype.png)
 
